@@ -1,224 +1,167 @@
 <!DOCTYPE html>
 <html lang="en">
-
-    <head>
-
-
-
-
+<head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>About</title>
 
-      <title>about</title>
-    <style>
-         .navbar{
-                align-items: center;
-                display:flex;
-                justify-content: space-between;
-                
-                padding:opx;
-                margin-top:20px;
-                border-radius: 2px;
-                gap: 12px;
-                margin-bottom: 0px;
-                background: #111827;
-               
-                
-            }
-            .gap a{
-                margin-right:20px;
-                text-decoration: none;
-                color: white;
-                font-weight: 700;
-                font-size: 22px;
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: Arial, sans-serif;
+}
 
-            }
-            .gap{
-                display: flex;
-                gap: 20px;
-            }
-        .main{
-            padding:140px;
-            margin-top: -140px;
-        }
-          .text1{
-            padding: 120px;
-            background-color: lightgray;
-            border-radius: 20px;
-            font-weight: 800;
-            font-size: 19px;
-            color: rgb(13, 13, 74);
-            margin-top: 20px;
-          }
-          .text1:hover{
-                    
-                    transform: scale(1.04);}
-          .text2{
-            padding: 120px;
-            background-color: lightgray;
-            border-radius: 20px;
-            font-weight: 800;
-            font-size: 19px;
-            color: rgb(13, 13, 74);
-            margin-top: 20px;
-          }
-          .text2:hover{
-                    
-                    transform: scale(1.04);}
-          .text3{
-            padding: 120px;
-            background-color: lightgray;
-            border-radius: 20px;
-            font-weight: 800;
-            font-size: 19px;
-            color: rgb(13, 13, 74);
-            margin-top: 20px;
-          }
-          .text3:hover{
-                    
-                    transform: scale(1.04);}
-          .text4{
-            padding: 120px;
-            background-color: lightgray;
-            border-radius: 20px;
-            font-weight: 800;
-            font-size: 19px;
-            color: rgb(13, 13, 74);
-            margin-top: 20px;
-          }
-          .text4:hover{
-                    
-                    transform: scale(1.04);}
-          .text5{
-            padding: 120px;
-            background-color: lightgray;
-            border-radius: 20px;
-            font-weight: 800;
-            font-size: 19px;
-            color: rgb(13, 13, 74);
-            margin-top: 20px;
-          }
-          .text5:hover{
-                    
-                    transform: scale(1.04);}
-          .text6{
-            padding: 120px;
-            background-color: lightgray;
-            border-radius: 20px;
-            font-weight: 800;
-            font-size: 19px;
-            color: rgb(13, 13, 74);
-            margin-top: 20px;
-          }
-          .text6:hover{
-                    
-                    transform: scale(1.04);
+/* NAVBAR */
+.navbar{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:15px 20px;
+    background:#111827;
+    flex-wrap:wrap;
+}
 
-          }
-          .btn1{
-                background-color: rgb(36, 36, 120);
-                text-decoration: none;
-                font-size: 19px;
-                border-radius: 12px;
-                color: white;
-                padding: 10px;
+.gap{
+    display:flex;
+    gap:15px;
+    flex-wrap:wrap;
+}
 
-            }
-            .btn1:hover{
-                background-color: lightgray;
-                color: rgb(19, 19, 139);
-            }
-            .btn2{
-                background-color: rgb(36, 36, 120);
-                text-decoration: none;
-                font-size: 19px;
-                border-radius: 12px;
-                color: white;
-                padding: 10px;
+.gap a{
+    text-decoration:none;
+    color:white;
+    font-weight:700;
+    font-size:18px;
+}
 
-            }
-            .btn2:hover{
-                background-color: lightgray;
-                color: rgb(19, 19, 139);
-            }
-            .img{
-              margin-top: 20px;
-              justify-content: center;
-              align-items: center;
-              display: flex;
-            }
-    </style>
-    </head>
-    <body>
-            <div class="navbar">
-            <div>
-                <img src="log_web-removebg-preview (1).png" alt="" height="80px" width="120px">
-            </div>
-                <div class="gap">
-                    <a href="index.html">Home</a>
-                    <a href="about.html">About</a>
-                    <a href="skill.html">Skills</a>
-                    <a href="contact.html">Contact</a>
-                </div>
-        </div>
-        <div class="main">
-                <div class="text1">
-                       <h1> Creative Web Developer</h1>
+/* MAIN */
+.main{
+    padding:40px 20px;
+}
 
-                            I am a passionate front-end web developer
-                            who creates modern and responsive websites.
-                            I focus on clean design and smooth user experience
-                            to make every project look professional and premium.
-                </div>
-                <div class="img">
-                  <img src="web.png" alt="" height="50%" width="60%">
-                </div>
-                <div class="text2">
-                       <h1>Fast Project Delivery</h1>
+/* TEXT BOXES */
+.text-box{
+    padding:30px;
+    background:lightgray;
+    border-radius:15px;
+    font-weight:600;
+    font-size:16px;
+    color:rgb(13,13,74);
+    margin-top:20px;
+    transition:0.3s;
+}
 
-                        I always deliver projects on time
-                        with full attention to quality and details.
-                        My goal is to provide fast and reliable service
-                        that helps clients grow their business online.
-                </div>
-                <div style="margin-top: 20px;">
-                    <a href="" class="btn1">visit now</a>
-                <div class="text3">
-                           <h1>Responsive Design Expert</h1>
+.text-box:hover{
+    transform:scale(1.02);
+}
 
-I build fully responsive websites
-that work perfectly on mobile and desktop devices.
-Every layout is designed carefully
-to give users a smooth browsing experience.
-                </div>
-                <div class="text4">
-                       <h1> Modern UI & UX Design</h1>
+/* IMAGE */
+.img{
+    display:flex;
+    justify-content:center;
+    margin:20px 0;
+}
 
-I create attractive and modern user interfaces
-with creative layouts and stylish sections.
-I use the latest design trends
-to make websites look premium and engaging.
-                </div>
-                <div style="margin-top: 20px;">
-                    <a href="" class="btn2">visit now</a>
-                <div class="text5">
-                  <h1>  Clean & Professional Coding</h1>
+.img img{
+    max-width:100%;
+    height:auto;
+}
 
-I write clean and organized code
-using HTML, CSS, and JavaScript technologies.
-My coding style keeps websites fast, secure,
-and easy to manage in the future.
+/* BUTTONS */
+.btn{
+    display:inline-block;
+    margin-top:20px;
+    background:rgb(36,36,120);
+    color:white;
+    padding:10px 15px;
+    border-radius:10px;
+    text-decoration:none;
+    font-size:16px;
+}
 
-                </div>
-                <div class="text6">
-                   <h1> Client Satisfaction First</h1>
+.btn:hover{
+    background:lightgray;
+    color:rgb(19,19,139);
+}
 
-Client satisfaction is always my top priority.
-I communicate clearly and work with dedication
-to deliver high-quality web solutions
-that match the client’s vision perfectly.
-                </div>
+/* RESPONSIVE */
+@media (max-width:768px){
+    .navbar{
+        flex-direction:column;
+        text-align:center;
+    }
 
-        </div>
-    </body>
+    .gap{
+        justify-content:center;
+    }
+
+    .text-box{
+        padding:20px;
+        font-size:14px;
+    }
+}
+</style>
+
+</head>
+
+<body>
+
+<div class="navbar">
+    <div>
+        <img src="log_web-removebg-preview (1).png" height="70">
+    </div>
+
+    <div class="gap">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="skill.html">Skills</a>
+        <a href="contact.html">Contact</a>
+    </div>
+</div>
+
+<div class="main">
+
+    <div class="text-box">
+        <h1>Creative Web Developer</h1>
+        I am a passionate front-end web developer who creates modern and responsive websites.
+    </div>
+
+    <div class="img">
+        <img src="web.png">
+    </div>
+
+    <div class="text-box">
+        <h1>Fast Project Delivery</h1>
+        I always deliver projects on time with full attention to quality and details.
+    </div>
+
+    <a href="#" class="btn">Visit Now</a>
+
+    <div class="text-box">
+        <h1>Responsive Design Expert</h1>
+        I build fully responsive websites that work perfectly on mobile and desktop devices.
+    </div>
+
+    <div class="text-box">
+        <h1>Modern UI & UX Design</h1>
+        I create attractive and modern user interfaces with stylish layouts.
+    </div>
+
+    <a href="#" class="btn">Visit Now</a>
+
+    <div class="text-box">
+        <h1>Clean & Professional Coding</h1>
+        I write clean and organized code using HTML, CSS, and JavaScript.
+    </div>
+
+    <div class="text-box">
+        <h1>Client Satisfaction First</h1>
+        Client satisfaction is always my top priority.
+    </div>
+
+</div>
+
+</body>
 </html>
