@@ -213,20 +213,63 @@ img{
     }
 
 }
+
+.menu-icon{
+    display:none;
+    font-size:30px;
+    color:white;
+    cursor:pointer;
+}
+
+@media(max-width:768px){
+
+    .menu-icon{
+        display:block;
+    }
+
+    .gap{
+        display:none;
+        flex-direction:column;
+        background:#111827;
+        position:absolute;
+        top:90px;
+        right:10px;
+        width:200px;
+        padding:20px;
+        border-radius:10px;
+    }
+
+    .gap.show{
+        display:flex;
+    }
+}
+
         </style>    
     </head>
     <body>
          <div class="navbar">
-            <div>
-                <img src="log_web-removebg-preview (1).png" alt="" height="80px" width="120px">
-            </div>
-                <div class="gap">
-                    <a href="index.html">Home</a>
-                    <a href="about.html">About</a>
-                    <a href="skill.html">Skills</a>
-                    <a href="contact.html">Contact</a>
-                </div>
-                </div>
+
+    <div>
+        <img src="log_web-removebg-preview (1).png" alt="" height="80px" width="120px">
+    </div>
+
+    <div class="menu-icon" onclick="toggleMenu()">
+        <i class="fa-solid fa-bars"></i>
+    </div>
+
+    <div class="gap" id="menu">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="skill.html">Skills</a>
+        <a href="contact.html">Contact</a>
+    </div>
+
+</div>
+<div>
+            <img src="bann.html.png" 
+            width="100%" >
+        </div>
+
             <div class="main">
                 <div class="e">
                     
@@ -261,5 +304,12 @@ img{
 <p>I deliver responsive and modern websites on time.</p>
                 </div>
                 </div>
+                <script>
+
+function toggleMenu(){
+    document.getElementById("menu").classList.toggle("show");
+}
+
+</script>
     </body>
 </html>
