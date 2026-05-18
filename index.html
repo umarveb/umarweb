@@ -23,8 +23,8 @@
             display: flex;
             justify-content: space-between;
 
-            padding: opx;
-            margin-top: 20px;
+            padding: 15px 20px;
+            margin-top: 0px;
             border-radius: 2px;
             gap: 12px;
             margin-bottom: 0px;
@@ -495,137 +495,113 @@
         }
 
 
-        /* =========================
-   MOBILE RESPONSIVE
+       /* =========================
+   MOBILE RESPONSIVE CSS
 ========================= */
 
-        @media(max-width:768px) {
-
-            .navbar {
-                flex-direction: column;
-                padding: 10px;
-            }
-
-            .gap {
-                flex-wrap: wrap;
-                justify-content: center;
-            }
-
-            .gap a {
-                font-size: 16px;
-                margin-right: 10px;
-            }
-
-            .um,
-            .shop,
-            .edu,
-            .welcom,
-            .main,
-            .btn {
-                flex-direction: column;
-            }
-
-            .online,
-            .course,
-            .stock,
-            .shopify,
-            .web,
-            .metric,
-            .fsc,
-            .bs,
-            .h1,
-            .p,
-            .img,
-            .img1,
-            .img2 {
-                width: 100%;
-                padding: 20px;
-                margin: 10px 0;
-            }
-
-            .stock {
-                margin-right: 0;
-            }
-
-            .form {
-                margin-left: 10px;
-                margin-right: 10px;
-            }
-
-            input,
-            textarea,
-            select {
-                width: 100%;
-                padding: 10px;
-            }
-
-            .pic img,
-            .img img,
-            .img1 img,
-            .img2 img {
-                width: 100%;
-                height: auto;
-            }
-
-            h1 {
-                font-size: 24px;
-            }
-
-            p {
-                font-size: 16px;
-            }
-
-            .why,
-            .education,
-            .me {
-                font-size: 22px;
-            }
-
-            .main {
-                margin-top: 0;
-                padding: 20px;
-            }
-
-            .you {
-                margin-top: 0;
-            }
-
-            .img,
-            .img1,
-            .img2 {
-                margin-top: 0;
-            }
-        }
-
-        .menu-icon{
-    display:none;
-    font-size:30px;
-    color:white;
-    cursor:pointer;
+*{
+    box-sizing: border-box;
 }
 
-@media(max-width:768px){
+img{
+    max-width: 100%;
+    height: auto;
+}
 
-    .menu-icon{
-        display:block;
+body{
+    overflow-x: hidden;
+}
+
+/* Mobile Screen */
+@media (max-width:768px){
+
+    .navbar{
+        flex-direction: column;
+        padding: 10px;
     }
 
     .gap{
-        display:none;
-        flex-direction:column;
-        background:#111827;
-        position:absolute;
-        top:90px;
-        right:10px;
-        width:200px;
-        padding:20px;
-        border-radius:10px;
+        flex-wrap: wrap;
+        justify-content: center;
     }
 
-    .gap.show{
-        display:flex;
+    .gap a{
+        font-size: 16px;
+        margin-right: 10px;
     }
+
+    .um,
+    .shop,
+    .edu,
+    .welcom,
+    .main,
+    .flex,
+    .btn{
+        flex-direction: column;
+    }
+
+    .online,
+    .course,
+    .stock,
+    .shopify,
+    .web,
+    .metric,
+    .fsc,
+    .bs,
+    .h1,
+    .p,
+    .img,
+    .img1,
+    .img2{
+        width: 100%;
+        margin: 10px 0;
+        padding: 20px;
+    }
+
+    .form{
+        margin-left: 10px;
+        margin-right: 10px;
+        width: auto;
+    }
+
+    input,
+    textarea,
+    select{
+        width: 100%;
+        padding: 10px;
+        margin-top: 5px;
+    }
+
+    .j,
+    .education,
+    .me,
+    .why{
+        font-size: 22px;
+        width: auto;
+    }
+
+    h1{
+        font-size: 24px;
+    }
+
+    p{
+        font-size: 16px;
+    }
+
+    .img img,
+    .img1 img,
+    .img2 img,
+    .pic img{
+        width: 100%;
+        height: auto;
+    }
+
+    marquee{
+        font-size: 16px;
+    }
+
 }
+
 
     </style>
 
@@ -730,7 +706,7 @@
         <div class="metric">
             <p>
                 In 2021, I passed my matric examination.<br>
-                In matric, I chose the science group,<br>
+                , I choose the science group,<br>
                 which included the following optional subjects.<br>
                 1- Math<br>
                 2- Physics<br>
@@ -810,7 +786,7 @@
     <div style="margin-top: 30px; color: rgb(38, 7, 10); font-size: 24px;
                 padding: 12px; background-color: rgb(108, 126, 126);
                  font-weight: 800; margin-bottom:20px;">
-        <marquee>we offer for two month 60% off website for business purposes
+        <marquee>we offer for two month 10% off on every website for business purposes
             and small institutions.dont miss this oppertunity.
         </marquee>
     </div>
